@@ -28,7 +28,7 @@ p {
 beautiful {
   font-family: 'Tangerine', serif;
 font-size: 180%;
-  text-shadow: 4px 4px 4px blue;
+  text-shadow: 4px 4px 4px #002147;
 }
 
 /* Global */
@@ -45,8 +45,9 @@ ul{
 
 h1 {
 font-size: 180%;
-  color: blue;
-  text-shadow: 4px 4px 4px #aaa;
+  color: #002147;
+  color: var(--textColorHeading1);
+  text-shadow: 4px 4px 4px #35424a;
 }
 
 h2 {
