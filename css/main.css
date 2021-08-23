@@ -27,8 +27,8 @@ p {
 
 beautiful {
   font-family: 'Tangerine', serif;
-  font-size: 12px;
-  text-shadow: 4px 4px 4px #aaa;
+font-size: 180%;
+  text-shadow: 4px 4px 4px blue;
 }
 
 /* Global */
