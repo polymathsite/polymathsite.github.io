@@ -72,6 +72,14 @@ h5 {
 }
 
 
+
+.headerFlex {
+  display: flex;
+  align-items: flex-end;
+    -ms-flex-wrap:wrap;
+}
+
+
 /* BoxesFooter */
 
 footer{
