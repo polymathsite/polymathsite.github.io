@@ -70,3 +70,25 @@ h5 {
   color:  #002147;
   color:  var(--textColorHeading1);
 }
+
+
+/* BoxesFooter */
+
+footer{
+  padding-top:20px;
+  padding-bottom:20px;
+  color:#f4f4f4;
+  color:var(--textColor1);
+  background-color:#002147;
+  background-color:var(--backgroundColor);
+  font-size: 80%;
+}
+
+footer .headerFlex {
+  justify-content: space-between;
+}
+
+footer .headerFlex > div {
+  padding: 0 20px 0 20px;
+  flex-wrap: wrap;
+}
