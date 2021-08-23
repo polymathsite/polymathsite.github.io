@@ -9,6 +9,8 @@
 <meta property="og:type" content="website">
 
 <meta property="description" content="Polymath">
+    
+    <script type="text/javascript" src="./js/js.js"></script>
 
 <link rel="stylesheet" href="/css/main.css" media="all">
     <link rel="stylesheet"
@@ -17,7 +19,8 @@
           href="https://fonts.googleapis.com/css?family=Ubuntu">
 
   </head>
-<body>
+  
+<body onload="writeFooterDivs();">
 
   <header>
     <div class="container">
@@ -41,7 +44,7 @@
   
   
   <ul>
-  <li><a href="https://en.wikipedia.org/wiki/Outline_of_academic_disciplines">wikipedia</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Outline_of_academic_disciplines">Wikipedia</a> | Outline of academic disciplines</li>
   </ul>
   
   <h3>Natural science</h3>
@@ -60,7 +63,7 @@
   </ul>
   <h4>Physics</h4>
   <ul>
-  <li><a href="https://www.curriculumonline.ie/Senior-cycle/Senior-Cycle-Subjects/Physics/">Ireland physics website with links to syllabus</a></li>
+  <li><a href="https://www.curriculumonline.ie/Senior-cycle/Senior-Cycle-Subjects/Physics/">Ireland physics website</a> | with links to syllabus</li>
   <li><a href="https://www.curriculumonline.ie/getmedia/a789272e-823f-4d40-b095-4ff8f6f195e4/SCSEC27_Physics_syllabus_eng.pdf">Ireland physics guideline</a></li>
   <li><a href="https://www.cambridgeinternational.org/Images/414447-2020-2021-syllabus.pdf">UCLES chemistry syllabus</a></li>
   </ul>
@@ -74,9 +77,9 @@
   
   <h4>Mathematics</h4>
   <ul>
-  <li><a href="https://www.curriculumonline.ie/Senior-cycle/Senior-Cycle-Subjects/Mathematics/">Ireland mathematics website with links to syllabus</a></li>
+  <li><a href="https://www.curriculumonline.ie/Senior-cycle/Senior-Cycle-Subjects/Mathematics/">Ireland mathematics website</a> | with links to syllabus</li>
   <li><a href="https://www.examinations.ie/misc-doc/BI-EX-7266997.pdf">Ireland examinations mathematics list of formulae</a></li>
-  <li><a href="https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-international-as-and-a-level-mathematics-9709/">UCLES mathematics website with links to syllabus and list of formulae</a></li>
+  <li><a href="https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-international-as-and-a-level-mathematics-9709/">UCLES mathematics website</a> | with links to syllabus and list of formulae</li>
   </ul>
   <h4>Statistics</h4>
   <ul>
@@ -98,11 +101,17 @@
     </div>
   </section>
   
-
   <footer>
     <section id="boxesFooter">
       <div class="container">
-        <p>C OE</p>
+        <div class="headerFlex">
+          <div id="dateTxt">
+          </div>
+          <div id="sysTxt">
+          </div>
+          <div id="copyTxt">
+          </div>
+        </div>
       </div>
     </section>
   </footer>
