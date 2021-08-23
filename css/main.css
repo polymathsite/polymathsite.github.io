@@ -6,16 +6,13 @@ h1 {
 }
 p {
   color: black;
-}
-
-beautiful {
-  font-family: 'Tangerine', serif;
+  font-family: 'Ubuntu', serif;
   font-size: 48px;
   text-shadow: 4px 4px 4px #aaa;
 }
 
-ubuntu {
-  font-family: 'Ubuntu', serif;
+beautiful {
+  font-family: 'Tangerine', serif;
   font-size: 48px;
   text-shadow: 4px 4px 4px #aaa;
 }
