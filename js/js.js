@@ -60,7 +60,7 @@ function writeSimpleDate() {
 function writeFooterDivs() {
   startTime();
   document.getElementById('sysTxt').innerHTML = "System: " + navigator.appName + "," + navigator.appVersion + "," + navigator.appCodeName + "," + navigator.platform + "," + navigator.cookieEnabled;
-  document.getElementById('copyTxt').innerHTML = "&copy;&nbsp;" + writeSimpleDate() + "&nbsp;OE,UK";
+  document.getElementById('copyTxt').innerHTML = "&copy;&nbsp;" + writeSimpleDate() + "&nbsp;OE";
 }
 
 
