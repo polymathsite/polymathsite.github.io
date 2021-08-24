@@ -72,6 +72,17 @@ h5 {
   color:  var(--textColorHeading1);
 }
 
+a {
+  outline: none;
+  text-decoration: none;
+  color:#f4f4f4;
+  color:var(--textColor2);
+}
+
+a:hover {
+  color:#cccccc;
+  color:var(--hover);
+}
 
 
 .headerFlex {
