@@ -49,7 +49,7 @@ h1 {
 font-size: 180%;
   color: #347c98;
   color: var(--textColorHeading_h1);
-  text-shadow: 4px 4px 4px #f4f4f4;
+  text-shadow: 4px 4px 4px #cccccc;
   text-align: center;
 }
 
