@@ -51,6 +51,7 @@ font-size: 180%;
   color: var(--textColorHeading_h1);
   text-shadow: 4px 4px 4px #cccccc;
   text-align: center;
+  font-stretch: expanded;
 }
 
 h2 {
