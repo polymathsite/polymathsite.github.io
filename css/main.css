@@ -5,6 +5,7 @@
   --light: #fff;
   --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
   --textColorHeading1:#002147;
+  --textColorHeading_h1:#347c98;
   --secondary:#999;
   --hover:#cccccc;
 }
@@ -46,9 +47,10 @@ ul{
 
 h1 {
 font-size: 180%;
-  color: #002147;
-  color: var(--textColorHeading1);
+  color: #347c98;
+  color: var(--textColorHeading_h1);
   text-shadow: 4px 4px 4px #35424a;
+  text-align: center;
 }
 
 h2 {
