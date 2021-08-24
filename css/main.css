@@ -7,7 +7,7 @@
   --textColorHeading1:#002147;
   --textColorHeading_h1:#347c98;
   --secondary:#999;
-  --hover:#cccccc;
+  --hover:#347c98;
 }
 
 
@@ -49,7 +49,7 @@ h1 {
 font-size: 180%;
   color: #347c98;
   color: var(--textColorHeading_h1);
-  text-shadow: 4px 4px 4px #35424a;
+  text-shadow: 4px 4px 4px #f4f4f4;
   text-align: center;
 }
 
@@ -81,7 +81,7 @@ a {
 }
 
 a:hover {
-  color:#cccccc;
+  color:#347c98;
   color:var(--hover);
 }
 
