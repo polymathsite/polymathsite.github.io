@@ -75,8 +75,6 @@ h5 {
 a {
   outline: none;
   text-decoration: none;
-  color:#f4f4f4;
-  color:var(--textColor2);
 }
 
 a:hover {
@@ -84,6 +82,9 @@ a:hover {
   color:var(--hover);
 }
 
+li{
+  list-style-type: none;
+}
 
 .headerFlex {
   display: flex;
