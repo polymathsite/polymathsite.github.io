@@ -110,11 +110,12 @@ li{
 }
 
 .headerFlex > * {
-  padding:5px;
+  padding-right:10;
+  padding-left:10;
 }
 
 header .logoImgContainer img{
-  height: 40px;
+  height: 60px;
   width: auto;
 }
 
