@@ -109,18 +109,12 @@ li{
   text-align: center;
 }
 
-.headerFlex > nav {
-  margin-left: auto;
-  flex-wrap: wrap;
--ms-flex-preferred-size: 100%;
-  text-align: center;
-}
 .headerFlex > * {
   padding:5px;
 }
 
 header .logoImgContainer img{
-  height: 20px;
+  height: 40px;
   width: auto;
 }
 
